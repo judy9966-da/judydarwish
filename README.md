@@ -139,8 +139,7 @@ During training, I completed over **10 theoretical and practical assignments** c
 - Theory + practical exams  
 
 Practical tasks will be added soon to the assignments folder.
-
-## 📂 Practical Work [Assessment](./projects/Assessment)
+ 📂 Practical Work [Assessment](./projects/Assessment)
 
 ---
 ##  Technologies
