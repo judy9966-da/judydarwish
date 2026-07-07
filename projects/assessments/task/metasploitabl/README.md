@@ -1,32 +1,25 @@
-Metasploitable 2 – Penetration Testing Project
-Overview
-A practical penetration-testing project demonstrating the setup and exploitation of the vulnerable Metasploitable 2 machine in a controlled lab environment.
+# Metasploitable 2 – Assessment
 
-Objectives
-Install and configure Metasploitable 2
+## Overview
+This assessment focuses on working with the intentionally vulnerable Metasploitable 2 machine to practice core penetration‑testing concepts in a controlled cybersecurity environment. The project includes preparing the virtual machine, identifying exposed services, analyzing weaknesses, and exploiting known vulnerabilities to demonstrate practical offensive security skills.
 
-Identify open services
+## Objectives
+- Install and configure the Metasploitable 2 virtual machine  
+- Discover active services and open ports  
+- Identify outdated or insecure components  
+- Exploit vulnerabilities that allow unauthorized access  
+- Validate successful compromise through post‑exploitation steps  
 
-Perform basic enumeration
+## Assessment Summary
+The Metasploitable 2 machine was successfully installed and configured inside a virtualized environment. After performing service enumeration, several weak and outdated services were identified. These weaknesses were leveraged to gain unauthorized access to the system.
 
-Exploit known vulnerabilities
+Two major vulnerabilities were exploited:
 
-Gain unauthorized access (user + root)
+### Telnet Default Credentials
+The Telnet service was accessible and configured with default login credentials, allowing immediate user‑level access.
 
-Techniques Used
-Service scanning
+### VSFTPD 2.3.4 Backdoor
+A known backdoor in the VSFTPD 2.3.4 FTP service enabled remote root access, resulting in full system compromise and the ability to perform post‑exploitation actions.
 
-Weak credential exploitation
-
-Backdoor exploitation
-
-Post‑exploitation validation
-
-Results
-Successful exploitation of:
-
-Telnet default credentials
-
-VSFTPD 2.3.4 backdoor
-
-Full system compromise was achieved, including root access.
+## Outcome
+The assessment resulted in complete control over the Metasploitable 2 machine, demonstrating the risks associated with outdated services, weak configurations, and insecure protocols. The project highlights essential penetration‑testing skills and reinforces the importance of secure system configuration.
